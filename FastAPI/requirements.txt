@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+pydantic
+azure-storage-blob
+tensorflow-cpu
+torch
+torchvision
+numpy
+pillow
+requests
+segmentation-models-pytorch
+efficientnet-pytorch
+opencv-python
+python-dotenv
+google-generativeai
