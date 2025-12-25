@@ -1,6 +1,5 @@
 # AI-Assisted MRI Brain Tumor Analysis Platform
 
-This project is a showcase for a gym management system with a phone version that haven't been done yet. This project focuses on automating a lot of the daily manually done gym operations by automating the subscriptions, tracking users attendance, and controlling who can get in and out.
 
 Figma File [here](https://www.figma.com/design/kKxmNFIIu7cl0FjhzTe1a9/Untitled?node-id=0-1&p=f&t=1owws2DaB06Czmof-0).
 Thesis Document [here](https://drive.google.com/file/d/1xVWT35rspeAGCd5cKLQFvUGfxKDB0kZ_/view?usp=sharing).
