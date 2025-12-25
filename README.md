@@ -1,2 +1,68 @@
 # NeuroAssist
-An AI-Assisted Web Platform for MRI Brain Tumor Analysis
+
+This project is a showcase for a gym management system with a phone version that haven't been done yet. This project focuses on automating a lot of the daily manually done gym operations by automating the subscriptions, tracking users attendance, and controlling who can get in and out.
+
+Figma File [here](https://www.figma.com/design/kKxmNFIIu7cl0FjhzTe1a9/Untitled?node-id=0-1&p=f&t=1owws2DaB06Czmof-0).
+
+# Key Features
+
+- Secure doctor authentication with JWT and refresh tokens
+- Multi-step study creation workflow
+- MRI upload with validation and size handling
+- Asynchronous AI inference via FastAPI
+- Background job orchestration using queues
+- Automatic PDF medical report generation
+- Real-time notifications using Redis Pub/Sub and WebSockets
+- Persistent notification history
+
+# Tech Stack
+
+### Frontend
+
+- React
+- Context API
+- WebSockets
+
+### Backend
+
+- Node.js (Express)
+- PostgreSQL + Prisma
+- JWT Authentication
+- BullMQ + Redis
+
+### AI Service
+
+- FastAPI (Python)
+- REST-based inference
+
+### Storage
+
+- Azure Blob Storage
+
+### Testing
+
+- Jest
+- Supertest
+
+# Architecture Overview
+
+The system uses an event-driven architecture:
+
+- The API handles validation and orchestration
+- Heavy tasks (AI inference, reports, emails) run in background workers
+- The ML service is fully decoupled from the backend
+- Real-time updates are delivered without polling
+
+# Diagrams
+
+### Activity Diagram
+
+![Activity Diagram](<./images/Activity Diagram.png>)
+
+### ERD
+
+![ERD](./images/ERD.png)
+
+### BullMQ Diagram
+
+![Bullmq diagram](<./images/Bullmq diagram 2.png>)
