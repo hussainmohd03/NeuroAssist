@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body { background:#f8f8f8; font-family: Arial; padding:20px; }
+      .wrapper { max-width:600px; margin:auto; background:#fff; padding:25px; border-radius:8px; }
+    </style>
+  </head>
+  <body>
+
+    {{> header}}
+
+    <div class="wrapper">
+      {{{ body }}}
+    </div>
+
+    {{> footer}}
+
+  </body>
+</html>
